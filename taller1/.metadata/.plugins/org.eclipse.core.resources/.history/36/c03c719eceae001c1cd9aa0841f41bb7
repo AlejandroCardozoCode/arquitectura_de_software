@@ -1,0 +1,13 @@
+package ServicioDB;
+
+import javax.ejb.Remote;
+
+@Remote
+public interface ServiciosUsuarioRemote {
+	public List<Usuario> findUsuario(String userName, String password);
+	public String addUsuario();
+	public List<Usuario> getAllUsuarios();
+
+	return resultList;
+	}
+}

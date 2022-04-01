@@ -1,8 +1,0 @@
-package ServicioDB;
-
-import javax.ejb.Remote;
-
-@Remote
-public interface ServiciosUsuarioRemote {
-
-}

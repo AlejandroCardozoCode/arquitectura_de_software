@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="LASTEARNAME_" value="EntidadesEjemplo"/>
+	<item key="LASTEARNAME_" value="Ejemplo01"/>
 	<list key="MRU_RUNTIME_STORE">
+		<item value="NULL_RUNTIME"/>
 		<item value="WildFly 24.0 Runtime"/>
 	</list>
 </section>

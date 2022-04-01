@@ -8,6 +8,7 @@ import model.Usuario;
 
 @Remote
 public interface ServiciosUsuarioRemote {
-	public List<Usuario> findUsuario(String userName, String password);
+
+	public List<Usuario> getAllUsuarios();
 
 }

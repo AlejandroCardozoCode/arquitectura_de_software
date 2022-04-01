@@ -27,13 +27,9 @@ public class ServiciosUsuario implements ServiciosUsuarioRemote {
         // TODO Auto-generated constructor stub
     }
     @Override
-    public List<Usuario> findUsuario(String userName, String password) {
-		String consulta = "SELECT u FROM usuario u WHERE u.username=:userName AND u.password=:password";
-		TypedQuery<Usuario> query = entityManager.createQuery(consulta, Usuario.class);
-		query.setParameter("userName", userName);
-		query.setParameter("password", password);
-		query.setMaxResults(1);
-		List<Usuario> resultList = query.getResultList();
-		return resultList;
+    public List<Usuario> getAllUsuarios() {
+    // TODO Auto-generated method stub
+    return entityManager.createQuery("SELECT p FROM usuario p", Usuario.class).getResultList();
     }
 }
+
